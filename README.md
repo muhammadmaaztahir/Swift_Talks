@@ -22,8 +22,15 @@ This is a real-time chat application created using Node.js and Socket.IO, enabli
 
 1) **Installation:** <br>
 - Clone the repository: git clone https://github.com/muhammadmaaztahir/Swift_Talks.git <br>
-- Install dependencies: npm install
+- Install dependencies: npm install express socket.io cors
 2) **Start the Server:** <br>
-- Run the server: node index.js or npm start
+- Run the server: node index.js
 3) **Access the Application:** <br>
-- Open your web browser and navigate to http://localhost:9000 (or the specified port).
+- Finally, click on "Go Live" and enter your name to join the chat.
+- Open this application on another tab also, then you will see both the tabs connected with each other.
+- Then start chatting.
+- And yes, here more than 2 peoples can also chat.
+- Here you can watch the Setup and Demo video of this application: <a href="Demo video (HOW IT WORKS).mp4" download="FILENAME">Download Video</a>
+ 
+
+
