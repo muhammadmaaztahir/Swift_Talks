@@ -1,0 +1,346 @@
+body {
+    height: 90vh;
+    background-color: #e7f0ff;
+}
+
+.main {
+    min-height: 90vh;
+    min-width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    height: 80vh;
+    width: 60%;
+}
+
+nav {
+    padding: 30px 20px;
+    background-color: #eeeeee;
+    height: 30px;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    gap: 10px;
+    margin: auto;
+    border: 4px solid #dbdce0;
+    box-sizing: border-box;
+}
+
+nav h2 {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 22px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #dbdce0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(93, 93, 93);
+}
+
+.container {
+    box-sizing: border-box;
+    max-width: 100%;
+    background-color: rgba(255, 255, 255, 0.977);
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 1200px;
+    background-blend-mode: overlay;
+    margin: auto;
+    height: 70vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 0;
+    border-right: 4px solid #dbdce0;
+    border-left: 4px solid #dbdce0;
+}
+
+.message {
+    margin: 17px 3px;
+    padding: 10px;
+    min-width: 10px;
+    border-radius: 10px;
+    max-width: 780px;
+}
+
+.left {
+    background-color: #ececec;
+    color: black;
+    float: left;
+    clear: both;
+    border-radius: 7px 7px 7px 0px;
+}
+
+.right {
+    float: right;
+    clear: both;
+    border-radius: 7px 7px 0px 7px;
+    background-color: #00377e;
+    border: none;
+    color: white;
+}
+
+#send-container {
+    background-color: #eeeeee;
+    border-radius: 0px 0px 10px 10px;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    border: 4px solid #dbdce0;
+    padding: 20px 34px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+#messageInp {
+    background-color: rgb(202, 202, 202);
+    width: 92%;
+    outline: none;
+    border: none;
+    border-radius: 30px 0px 0px 30px;
+    height: 44px;
+    outline: none;
+    padding-left: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: poppins;
+    color: rgb(32, 32, 32);
+}
+
+.btn {
+    background-color: rgb(202, 202, 202);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 0px 30px 30px 0px;
+    height: 46px;
+    padding-right: 20px;
+}
+
+.btn span {
+    color: #00377e;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+@media screen and (max-width:1100px) {
+    .hero {
+        width: 80%;
+    }
+
+    .container {
+        padding: 16px;
+        font-size: 14px;
+    }
+
+    .message {
+        margin: 17px 3px;
+        padding: 10px;
+        max-width: 470px;
+    }
+
+    #messageInp {
+        font-size: 18px;
+    }
+
+    .btn span {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .hero {
+        width: 90%;
+    }
+
+    .container {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .message {
+        margin: 17px 3px;
+        padding: 10px;
+        max-width: 380px;
+    }
+
+    #messageInp {
+        font-size: 18px;
+    }
+
+    .btn span {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    ::-webkit-scrollbar {
+        width: 7px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .container {
+        font-size: 16px;
+    }
+
+    ::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    .container {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .message {
+        margin: 17px 3px;
+        padding: 10px;
+        max-width: 320px;
+    }
+
+    #messageInp {
+        font-size: 16px;
+    }
+
+    .btn span {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    ::-webkit-scrollbar {
+        width: 6px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .hero {
+        width: 95%;
+    }
+
+    ::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    .container {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .message {
+        margin: 17px 3px;
+        padding: 10px;
+        max-width: 260px;
+    }
+
+    #messageInp {
+        font-size: 16px;
+    }
+
+    .btn span {
+        font-size: 24px;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .hero {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .container {
+        font-size: 14px;
+        margin: 0;
+        padding: 10px;
+    }
+
+    body {
+        width: 97vw;
+        height: 100vh;
+    }
+
+    #messageInp {
+        font-size: 14px;
+    }
+
+    .message {
+        margin: 17px 3px;
+        padding: 10px;
+        max-width: 260px;
+    }
+
+    .main {
+        height: 100%;
+    }
+
+    ::-webkit-scrollbar {
+        width: 4px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .container {
+        font-size: 12px;
+        font-weight: 200;
+        padding: 4px;
+    }
+
+    #messageInp {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .btn span {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .message {
+        margin: 17px 3px;
+        padding: 10px;
+        max-width: 260px;
+    }
+
+    .main {
+        height: 100%;
+    }
+
+    ::-webkit-scrollbar {
+        width: 4px;
+    }
+}
+
+@media screen and (max-width:250px) {
+    .message {
+        margin: 17px 3px;
+        padding: 10px;
+        max-width: 150px;
+    }
+
+    ::-webkit-scrollbar {
+        width: 4px;
+    }
+}
