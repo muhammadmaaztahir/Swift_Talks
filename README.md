@@ -1,4 +1,4 @@
-# Swift Talks
+# Swift talks
 
 <img src="Chat App.jpg" alt="Chat App">
 
@@ -21,7 +21,7 @@ This is a real-time chat application created using Node.js and Socket.IO, enabli
 ## How to Use
 
 1) **Installation:** <br>
-- Clone the repository: git clone https://github.com/muhammadmaaztahir/Swift_Talks.git <br>
+- Clone the repository: git clone https://github.com/muhammadmaaztahir/Swift_talks.git <br>
 - Install dependencies: npm install express socket.io cors
 2) **Start the Server:** <br>
 - Run the server: node index.js
