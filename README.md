@@ -1,6 +1,8 @@
 # Swift talks
 
-<img src="Chat App.jpg" alt="Chat App">
+<img src="/Screenshots/Screenshot%201.jpg" alt="Chat App">
+<img src="/Screenshots/Screenshot%202.jpg" alt="Chat App">
+<img src="/Screenshots/Screenshot%203.jpg" alt="Chat App">
 
 ## Description
 
